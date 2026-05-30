@@ -107,3 +107,42 @@ text-align:center;
 padding:20px;
 color:#999;
 }
+.hero{
+padding:50px 20px;
+text-align:center;
+background:#1b1b1b;
+margin:20px;
+border-radius:15px;
+}
+
+.hero h2{
+font-size:35px;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#aaa;
+margin-bottom:20px;
+}
+
+.hero-btn{
+background:#00c853;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+.hero-btn:hover{
+opacity:.8;
+}
+
+.categories button{
+background:#333;
+color:white;
+}
+
+.categories button:hover{
+background:#00c853;
+}
