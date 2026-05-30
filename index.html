@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>HD Mobile Wallpapers</title>
+<title>HD Mobile Wallpapers - Free 4K Wallpapers Download</title>
+
+<meta name="description" content="Download Free HD Mobile Wallpapers, AMOLED Wallpapers, Anime Wallpapers, Nature Wallpapers and 4K Wallpapers.">
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -13,38 +15,71 @@
 
 <header>
 <h1>HD Mobile Wallpapers</h1>
+<p>4K • AMOLED • Anime • Nature • Cars Wallpapers</p>
 
 <input type="text" id="search" placeholder="Search Wallpapers...">
+
+<div class="categories">
+<button>All</button>
+<button>AMOLED</button>
+<button>Anime</button>
+<button>Nature</button>
+<button>Cars</button>
+<button>Gaming</button>
+</div>
 </header>
+
+<!-- AdSense Top -->
+<div class="ads-box">
+Advertisement Space
+</div>
 
 <div class="gallery">
 
 <div class="card">
-<img src="images/wallpaper1.jpg">
+<img src="images/wallpaper1.jpg" onclick="openImage(this.src)">
 <a href="images/wallpaper1.jpg" download>Download</a>
 </div>
 
 <div class="card">
-<img src="images/wallpaper2.jpg">
+<img src="images/wallpaper2.jpg" onclick="openImage(this.src)">
 <a href="images/wallpaper2.jpg" download>Download</a>
 </div>
 
 <div class="card">
-<img src="images/wallpaper3.jpg">
+<img src="images/wallpaper3.jpg" onclick="openImage(this.src)">
 <a href="images/wallpaper3.jpg" download>Download</a>
 </div>
 
-  <div class="card">
-<img src="images/wallpaper4.jpg" alt="Wallpaper">
+<div class="card">
+<img src="images/wallpaper4.jpg" onclick="openImage(this.src)">
 <a href="images/wallpaper4.jpg" download>Download</a>
 </div>
 
-  <div class="card">
-<img src="images/wallpaper5.jpg" alt="Wallpaper">
+<div class="card">
+<img src="images/wallpaper5.jpg" onclick="openImage(this.src)">
 <a href="images/wallpaper5.jpg" download>Download</a>
 </div>
-  
+
 </div>
+
+<!-- Full Screen Preview -->
+<div id="popup" class="popup">
+<span onclick="closeImage()">✖</span>
+<img id="popup-img">
+</div>
+
+<!-- AdSense Bottom -->
+<div class="ads-box">
+Advertisement Space
+</div>
+
+<footer>
+<p>© 2026 HDMobileWall.website</p>
+<p>
+About Us | Contact | Privacy Policy | DMCA
+</p>
+</footer>
 
 <script src="script.js"></script>
 
