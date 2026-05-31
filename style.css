@@ -1,20 +1,39 @@
 body{
 margin:0;
-background:#111;
-font-family:Arial;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
 color:white;
+min-height:100vh;
 }
 
 header{
 text-align:center;
-padding:20px;
+padding:25px;
+
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,0.1);
+
+margin:15px;
+border-radius:25px;
 }
 
 #search{
 width:80%;
-padding:10px;
+padding:15px;
+
+background:rgba(255,255,255,0.12);
 border:none;
-border-radius:10px;
+
+backdrop-filter:blur(15px);
+
+border-radius:30px;
+
+color:white;
+font-size:16px;
+outline:none;
 }
 
 .gallery{
@@ -25,9 +44,18 @@ padding:20px;
 }
 
 .card{
-background:#222;
-border-radius:15px;
+background:rgba(255,255,255,0.08);
+
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,0.1);
+
+border-radius:25px;
+
 overflow:hidden;
+
+transition:.4s;
 }
 
 .card img{
@@ -36,26 +64,32 @@ height:500px;
 object-fit:cover;
 display:block;
 cursor:pointer;
+border-radius:20px 20px 0 0;
 }
 
 .card a{
 display:block;
-background:#00c853;
+padding:14px;
+text-align:center;
+background:linear-gradient(90deg,#00c6ff,#0072ff);
 color:white;
 text-decoration:none;
-padding:10px;
-text-align:center;
+font-weight:bold;
 }
+
 .categories{
 margin-top:15px;
 }
 
 .categories button{
-padding:10px 15px;
-margin:5px;
+padding:12px 18px;
+background:rgba(255,255,255,.1);
 border:none;
-border-radius:20px;
+border-radius:30px;
+color:white;
+margin:5px;
 cursor:pointer;
+backdrop-filter:blur(10px);
 }
 
 .card{
@@ -63,7 +97,8 @@ transition:.3s;
 }
 
 .card:hover{
-transform:scale(1.03);
+transform:translateY(-8px);
+box-shadow:0 10px 30px rgba(0,255,255,.25);
 }
 
 .card img{
@@ -110,12 +145,14 @@ text-align:center;
 padding:20px;
 color:#999;
 }
+
 .hero{
-padding:50px 20px;
-text-align:center;
-background:#1b1b1b;
 margin:20px;
-border-radius:15px;
+padding:60px 20px;
+text-align:center;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(20px);
+border-radius:30px;
 }
 
 .hero h2{
