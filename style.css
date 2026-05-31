@@ -41,18 +41,15 @@ box-shadow:0 10px 30px rgba(0,0,0,.08);
 
 #search{
 width:80%;
-padding:15px;
-
-background:rgba(255,255,255,0.12);
+max-width:600px;
+padding:15px 20px;
 border:none;
-
-backdrop-filter:blur(15px);
-
-border-radius:30px;
-
-color:white;
+border-radius:50px;
+background:white;
+color:#111;
 font-size:16px;
 outline:none;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
 .gallery{
@@ -166,43 +163,6 @@ cursor:pointer;
 color:white;
 }
 
-.hero{
-margin:20px;
-padding:70px 20px;
-text-align:center;
-
-background:rgba(255,255,255,.45);
-
-backdrop-filter:blur(30px);
-
-border-radius:35px;
-
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-}
-
-.hero h2{
-font-size:35px;
-margin-bottom:10px;
-}
-
-.hero p{
-color:#aaa;
-margin-bottom:20px;
-}
-
-.hero-btn{
-background:#00c853;
-padding:12px 25px;
-border-radius:30px;
-text-decoration:none;
-color:white;
-font-weight:bold;
-}
-
-.hero-btn:hover{
-opacity:.8;
-}
-
 .categories button{
 background:#333;
 color:white;
@@ -214,30 +174,31 @@ background:#00c853;
 
 footer{
 text-align:center;
-padding:20px;
-margin-top:20px;
-background:#222;
-color:#999;
+padding:30px;
+margin-top:30px;
+
+background:rgba(255,255,255,.6);
+
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+
+border-top:1px solid rgba(255,255,255,.8);
+
+color:#111;
 }
 
 footer a{
-color:white;
+color:#111;
 text-decoration:none;
 margin:0 10px;
+font-weight:600;
+}
+
+footer a:hover{
+color:#ff7a3d;
 }
 
 h1,h2,h3,p{
 color:#111;
 }
 
-.logo{
-width:120px;
-height:auto;
-display:block;
-margin:auto;
-}
-
-.logo-box{
-text-align:center;
-margin:10px 0;
-}
