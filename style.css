@@ -189,3 +189,23 @@ font-size:48px;
 font-weight:800;
 margin-bottom:10px;
 }
+
+.pagination{
+text-align:center;
+margin:30px 0;
+}
+
+.pagination a{
+display:inline-block;
+padding:12px 18px;
+margin:5px;
+background:#ff7a3d;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.pagination a:hover{
+background:#ff5a36;
+}
